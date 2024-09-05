@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Topico</title>
+        <!-- File Css -->
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="stylesheet" href="assets/css/login.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+
+    </head>
+    <body>
+        
+        <header>
+            <div class="container top-nav">
+                <a href="index.html" class="logo">
+                    <img src="assets/img/logo-black.png">
+                </a>
+
+                <form action="" class="search">
+                    <input type="search" placeholder="Search For Products.....">
+                    <button type="submit">Search</button>
+                </form>
+
+                <div class="cart_header">
+                    <div onclick="open_cart()" class="icon-cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="count_item">0</span>
+                    </div>
+                    <div class="total_price">
+                        <p>My Cart</p>
+                        <p class="price_cart_head">$0</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <div class="links container">
+
+                    <i onclick="open_menu()" class="fa-solid fa-bars btn_open_menu"></i>
+                    <ul id="menu">
+                        <span onclick="close_menu()" class="bg_overlay"></span>
+                        <i  onclick="close_menu()"class="fa-regular fa-circle-xmark btn_close_menu"></i>
+                        <img class="logo_menu" src="assets/img/logo-black.png">
+                        <li ><a href="index.html" >Home</a></li>
+                        <li><a href="all_products.html">All Product</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href=""> Contact</a></li>
+                    </ul>
+
+                    <header>
+                        <div class="container top-nav">
+                            <a href="index.html" class="logo">
+                                <img src="assets/img/logo-black.png">
+                            </a>
+            
+                            <form action="" class="search">
+                                <input type="search" placeholder="Search For Products.....">
+                                <button type="submit">Search</button>
+                            </form>
+            
+                            <div class="cart_header">
+                                <div onclick="open_cart()" class="icon-cart">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span class="count_item">0</span>
+                                </div>
+                                <div class="total_price">
+                                    <p>My Cart</p>
+                                    <p class="price_cart_head">$0</p>
+            
+                                </div>
+                            </div>
+                        </div>
+            
+                        <nav>
+                            <div class="links container">
+            
+                                <i onclick="open_menu()" class="fa-solid fa-bars btn_open_menu"></i>
+                                <ul id="menu">
+                                    <span onclick="close_menu()" class="bg_overlay"></span>
+                                    <i  onclick="close_menu()"class="fa-regular fa-circle-xmark btn_close_menu"></i>
+                                    <img class="logo_menu" src="assets/img/logo-black.png">
+                                    <li class="active"><a href="index.html" >Home</a></li>
+                                    <li><a href="all_products.html">All Product</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href=""> Contact</a></li>
+                                </ul>
+            
+                                <div class="login-signup">
+                                    
+                                    <a href="signup_page.html">Sign Up
+                                        <i class="fa-solid fa-user-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                </div>
+            </nav>
+        </header>
+
+        <div class="cart">
+            <div class="top-cart">
+                <h3> My cart
+                    <span class="count_item_cart">
+                        (0Item in cart)
+                    </span>
+                </h3>
+                <span onclick="close_cart()" class="close_cart">
+                    <i class="fa-solid fa-circle-xmark"></i> 
+                </span>
+            </div>
+           <div class="items_in_cart">
+            
+
+
+             
+           </div> 
+
+           <div class="bottom-cart">
+                <div class="total">
+                    <p>Cart Subtotal</p>
+                    <p class="price_cart_total">$0</p>
+                </div>
+
+                <div class="button-cart">
+                    <a href="checkout.html" class="btn-cart"> Proceed to Checkout</a>
+                    <button class="btn-cart trans-bg"> Shop More</button>
+                </div>
+           </div>
+        </div>
+        
+        <div class="sigin sec_form">
+            <div class="form_container">
+                <p class="title">
+                    Welcome Back
+                </p>
+
+                <form class="form">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="password">
+                    <p class="page_link">
+                        <a href="#" class="page_link_label">
+                            Forgot password?
+                        </a>
+                    </p>
+
+                    <button class="form_btn">Login</button>
+                </form>
+
+                <p class="sign_up_label">
+                    Donet Have An Account? <a href="#" class="sign_up_link">Sign Up</a>
+                </p>
+
+                <div class="buttons_container">
+
+                    <div class="apple_login_button">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>Login With Apple</span>
+                    </div>
+
+                    <div class="google_login_button">
+                        <i class="fa-brands fa-google"></i>
+                        <span>Login With Google</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+     
+        <footer>
+            <div class="container">
+                <div class="big_row">
+                    <img src="assets/img/logo-white.png">
+                    <div class="hotline">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="text">
+                            <h5>
+                                Hotline Free 24/24:
+                            </h5>
+                            <h6>
+                                (+100) 123 456 7890
+                            </h6>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat eius quo inventore explicabo nulla repellendus possimus, blanditiis eligendi molestias, ut dolores nihil voluptates .
+                    </p>
+                </div>
+
+                <div class="row">
+                    <h4>FAQs & Help</h4>
+
+
+                    <div class="links">
+                        <a href="#">F.A.Q.S</a>
+                        <a href="#">Ordering Tracking</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Events</a>
+                        <a href="#">Help Center</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h4> Shipping & Delivery </h4>
+
+
+                    <div class="links">
+                        <a href="#">Delivery Information</a>
+                        <a href="#">Discount</a>
+                        <a href="#">Payment & Shipping</a>
+                        <a href="#">Estimated Delivery Time</a>
+                        <a href="#">Shipping Guide</a>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <h4>Information</h4>
+
+
+                    <div class="links">
+                        <a href="#">Popular</a>
+                        <a href="#">Our Services</a>
+                        <a href="#">Your Account</a>
+                        <a href="#">Privay  Policy</a>
+                        <a href="#"> Terms & Condition</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom_fooer">
+                <div class="container">
+                    <p>Copyright &copy; <span>Topico.</span> all Right Reserved . <span>Powered by Magdy Ahmed</span></p>
+
+                    <div class="payment_img">
+                        <img src="assets/img/payment-1.png">
+                        <img src="assets/img/payment-2.png">
+                        <img src="assets/img/payment-3.png">
+                        <img src="assets/img/payment-4.png">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/all_products.js"></script>
+             
+    </body>
+</html>
